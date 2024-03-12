@@ -12,3 +12,7 @@ let isLoggedIn = false // Boolean
 
 // boolean is also a value which has either true or false
 // null => is an standalone value
+// undefined => nothing is defined
+// symbol => it is used to find unquiness and it is mostly used in react [Toole like : Figma etc]
+
+// console.log(typeof "Kusal"); // the typeof will show me which type off is given is [String.Boolean,var etc]
