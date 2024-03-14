@@ -58,5 +58,43 @@ let someNumber = 33 // Converting it into String
 
 let stringNumber = String(someNumber)
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
+
+
+/********************************  Operations  *********************************** */
+
+let value = 3
+let negValue = -value
+//console.log(negValue)
+
+//console.log(2+2)
+//console.log(2-2)
+//console.log(2%2)
+//console.log(2/2)
+//console.log(2*2)
+//console.log(2**3) // This will act as a power (Here 2's power is 3)
+
+let str1 = "hello"
+let str2 = " Kushal"
+
+let str3 = str1+str2 // We can add strings like this
+//console.log(str3)
+
+//console.log("1" + 2) // output > 12
+//console.log(1 + "2") // output > 12
+//console.log("1" + 2 + 2) //Every thing is converted in string  // output > 122
+//console.log(1 + 2 + "2") // output > 32
+
+// console.log( 3 + 4 * 5 % 3 - 2) // This is type of code is not recommedate and if you want to write this type of code then use this "()"
+
+//console.log(+true) // Some tricky one's // output > 1 // Not Recommedate
+//console.log(+"") // Some tricky one's // output > 0 // Not Recommedate
+
+let num1, num2, num3 // Not recommedate
+
+num1 = num2 = num3 = 2 + 2 // Not recommedate it is showing poor readability 
+
+let gameCounter = 100
+gameCounter++;//This prefix operator  // or ++gameCounter; this is postfix operator
+console.log(gameCounter)
