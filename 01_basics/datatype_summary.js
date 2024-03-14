@@ -46,3 +46,39 @@ console.log(typeof bigNumber);
 
 // -> Click on link below to see what will typeof operator return the value for a particular datatype
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+/*****************************************  MEMORY  ******************************************************/
+
+// We have two types of memory 
+// Stack and Heap Memory
+
+// Stack -> In Primitive Datatype stack memory is used // In Stack memory at the time of changing value we get copy / duplicate of it
+
+let getEmail = "kushalhellodotgmailcom"
+
+let anotherEmail = getEmail
+anotherEmail = "helloerarwedot"
+
+console.log(getEmail)
+console.log(anotherEmail)
+
+// Advance Datatype
+let userOne = {
+    email: "kushal@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "dreams@me.com" // We are accessing an object for an email btw this is the way to access the already existing information and the information is that we have assigned the email in userOne and accessed it through userTwo and after that we are initialising changes in the email which is already existing in userTwo
+
+console.log(userOne.email)
+console.log(userTwo.email) // Exactly i am also thinking that the email of second one will be changed but bro it's a heap and we get result of both email is same and that is dreams@me.com 
+// This second email changes also affected to first email and both results are what we have change in second email.
+
+
+
+// Heap -> In Reference / Non-Primitive Datatype Heap memory is used // In Heap memory at the time of changing value we get original / refernce of it
+ 
+// Heap example is from 66 row 
