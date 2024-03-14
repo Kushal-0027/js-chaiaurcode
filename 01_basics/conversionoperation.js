@@ -16,13 +16,13 @@ let valueInNumber = Number(score)  // If you know that you have to work througho
 // case 2
 // If you given let score = "27abc" and now you have to convert into this number {The problem here is that it will convert abc also with 27 and abc is not a number So to check it. We have to go through a exercise >> }
 
-let sscore = "28abc" // Here we declare a number with abc
+//let sscore = "28abc" // Here we declare a number with abc
 
-let numberCheck = Number(sscore) // Here we converted string into a number that was 28abc
+//let numberCheck = Number(sscore) // Here we converted string into a number that was 28abc
 // But the problem is this will convert abc also in number
 
 // console.log(typeof numberCheck); // checking the number
-console.log(numberCheck); // looking what is actually going into this 28abc senerio // In this scenerio it is returing NaN which also an special type 
+//console.log(numberCheck); // looking what is actually going into this 28abc senerio // In this scenerio it is returing NaN which also an special type 
 
 // So please don't relay on numbers in Javascript too much
 
@@ -48,8 +48,15 @@ console.log(numberCheck); // looking what is actually going into this 28abc sene
 let loggedIn = 1
 
 let BooleanLoggedIn = Boolean(loggedIn)
-console.log(BooleanLoggedIn); 
+// console.log(BooleanLoggedIn); 
 
 // In this case we got true after entering 1; Similarly we got false after entering 0
 // We get false while we just written string "" 
 // We get true after we enetered a name in string "Hello" 
+
+let someNumber = 33 // Converting it into String
+
+let stringNumber = String(someNumber)
+
+console.log(stringNumber);
+console.log(typeof stringNumber);
