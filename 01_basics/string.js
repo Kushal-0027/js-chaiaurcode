@@ -20,3 +20,8 @@ console.log(gameName.indexOf('u')) // Here you will input the character to get t
 
 const newString = gameName.substring(0,4)
 console.log(newString)
+
+const anotherString = gameName.slice(-8, 4) // Here we can assign negative value also
+console.log(anotherString)
+
+const newStringOne = "   kushal  "
