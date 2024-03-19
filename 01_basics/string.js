@@ -1,3 +1,6 @@
+//String's are Most Powerful in any language
+
+
 const name = "kushal"
 const repoCount = "100"
 
@@ -18,10 +21,24 @@ console.log(gameName.toUpperCase()) // This is the way to use functions in strin
 console.log(gameName.charAt(0)) // To see at which index the character is at. therefore, you pass numbers here to get the located character
 console.log(gameName.indexOf('u')) // Here you will input the character to get the index number of location.VicaVersa of '.charAt()' // The syntax of this is .indexof('u')
 
-const newString = gameName.substring(0,4)
+const newString = gameName.substring(0,4) // We can't assign negative value
 console.log(newString)
 
 const anotherString = gameName.slice(-8, 4) // Here we can assign negative value also
 console.log(anotherString)
 
 const newStringOne = "   kushal  "
+console.log(newStringOne); // Normally it will include start and normal spaces
+console.log(newStringOne.trim()); // It will trim _blank spaces
+
+const url = "https://kushalwrites. com"
+
+console.log(url.replace(' ','-')); // To replace wrongly written links in this method we first have to initialize if what will there then we have to write to whom it should be writtened
+
+console.log(url.includes('kushal')); // This method to ask that is there given value available or not
+
+console.log(url.includes('Hello World'));
+
+const gameNamei = new String('kushal-Mee') // Here we are spliting string on basis of spaces
+console.log(gameNamei.split('-')); // This is the method // And here we can give seperator or limit at same time and we can give seperator seperatoly
+// And it will give array as a output after converting from string
